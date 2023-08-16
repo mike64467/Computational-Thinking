@@ -1,0 +1,268 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(37, 37, 37, 0.7);
+  position: fixed;
+  top: 0;
+  width: 100%;  
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  z-index: 99;
+  }
+
+li {
+  float: right;
+  }
+  
+li a {
+  display: block;
+  color: rgb(225, 225, 225);
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.5s;
+  }
+
+  li a:hover {
+		color: rgb(225, 225, 225);			
+		text-align: center;
+    font-size: 23px;		
+		text-shadow: 0 0 10px white,0 0 20px white,0 0 30px white,0 0 40px white;	
+    transition: 0.3s;
+  }
+
+body {
+  margin:0;
+  padding:0;
+  }
+
+.CMT119title {
+  float: left;
+  color:rgb(225, 225, 225);
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  top: -5px;
+  left: 20px;
+  z-index: 100;
+  }
+
+.Welcomebackground{
+  background-image: url("Welcomebackground.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Computationalthinkingbackground{
+  background-image: url("Computationalthinkingbackground.png");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Von_Neumannbackground{
+  background-image: url("Von_Neumannbackground.png");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reflectionbackground{
+  background-image: url("reflectionbackground.png");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  color: rgb(225, 225, 225);
+  font-size: 20px;
+}
+
+h2{
+  color: rgb(225, 225, 225);
+  font-size: 30px;
+}
+
+h1{
+  color: rgb(225, 225, 225);
+  margin-bottom: 50px; 
+  font-size: 40px;
+}
+
+figcaption{
+  font-size: 18px;
+  color: rgb(192, 192, 192);
+}
+
+.welcomecontainer{
+  border-radius: 40px;
+  background-color: rgba(13, 13, 13, 0.55);
+  margin: 200px 900px 70px -20px;
+  padding: 0px 50px 10px 50px;
+  font-size: 40px;
+}
+
+.textcontainer-left{
+  border: none;
+  border-radius: 40px;
+  margin: 30px 650px 70px 100px;
+  padding: 20px 0px 30px 0px;
+  overflow: hidden;
+  background-color: rgba(13, 13, 13, 0.85);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.textcontainer-right{
+  border: none;
+  border-radius: 40px;
+  margin: 30px 100px 70px 650px;
+  padding: 20px 0px 30px 0px;
+  overflow: hidden;
+  background-color: rgba(13, 13, 13, 0.85);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px); */
+}
+
+.textcontainer-title {
+  color: rgb(225, 225, 225);
+  width: 85%;
+  line-height: 40px;
+  font-size: 35px;
+  margin-bottom: 35px;
+}
+
+.textcontainer-words {
+  color: rgb(225, 225, 225);
+  width: 85%;
+  line-height: 35px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.textcontainer-button {
+  border: 3px solid rgb(114, 97, 40);
+  padding: 10px 10px;
+  font-size: 20px;
+  }
+
+  .textcontainer-button a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 10px;
+    color: rgb(225, 225, 225);
+    transition: 1.0s;
+    margin-top: 15px;
+  }
+
+  .textcontainer-button a:hover {
+		color: rgb(225, 225, 225);
+    text-decoration: none;
+    font-size: 20px;
+		text-shadow: 0 0 10px white,0 0 20px white,0 0 30px white,0 0 40px white;	
+    transition: 0.3s;
+  }
+
+.textcontainer-centre-firstparagraph{
+  padding: 120px 21% 25px 21%;
+  margin: 0px auto 0px auto;
+  color: rgb(225, 225, 225);
+  background-color: rgba(21, 21, 21, 0.9);
+  font-size: 20px;
+  line-height: 35px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  /* text-align: justify; */
+}
+
+.textcontainer-centre{
+    padding: 25px 21%;
+    margin: 0px auto 0px auto;
+    color: rgb(225, 225, 225);
+    background-color: rgba(21, 21, 21, 0.9);
+    font-size: 20px;
+    line-height: 35px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    text-align: justify;
+  }
+
+.textcontainer-centre-lastparagraph{
+    padding: 25px 21% 100px 21%;
+    margin: 0px auto 0px auto;
+    color: rgb(225, 225, 225);
+    background-color: rgba(21, 21, 21, 0.9);
+    font-size: 20px;
+    line-height: 35px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    text-align: justify;
+  }
+
+.textcontainer-centre-references{
+    padding: 25px 21% 100px 21%;
+    margin: 0px auto 0px auto;
+    color: rgb(185, 185, 185);
+    background-color: rgba(21, 21, 21, 0.9);
+    font-size: 18px;
+    line-height: 35px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    text-align: justify;
+  }
+
+  .Introductionbackground{
+    background-image: url("Computationalthinkingbackground.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .Biographybackground{
+    background-image: url("Von_Neumannbackground.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .reflectionpagebackround{
+    background-image: url("Welcomebackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .biographyimgclass{
+    margin: 35px;
+    vertical-align:middle;
+    text-align: center;
+  }
